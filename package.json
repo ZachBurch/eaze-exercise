@@ -9,14 +9,17 @@
     "node": "9.3.0"
   },
   "scripts": {
-    "start": "node devIndex-async.js",
+    "start": "node index.js",
     "test": "node test.js",
     "test-unit": "NODE_ENV=test mocha unit-test.js"
   },
   "dependencies": {
     "axios": "^0.17.1",
     "cheerio": "^1.0.0-rc.2",
-    "npm-registry-download": "^1.0.6"
+    "delay": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "npm-registry-download": "^1.0.6",
+    "rimraf": "^2.6.2"
   },
   "devDependencies": {
     "get-folder-size": "^1.0.0",
